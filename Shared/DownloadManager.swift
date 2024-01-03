@@ -26,7 +26,8 @@ final class DownloadManager: ObservableObject {
             } else {
 //                let urlRequest = URLRequest(url: URL(string: "https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4")!)
                 
-                let urlRequest = URLRequest(url: URL(string: "https://github.com/MFiOS/DownloadFilesLocally/blob/main/kangaroo%20fight.mp4")!)
+                // let urlRequest = URLRequest(url: URL(string: "https://github.com/MFiOS/DownloadFilesLocally/blob/main/kangaroo%20fight.mp4")!)
+                let urlRequest = URLRequest(url: URL(string: "https://www.dropbox.com/scl/fi/ieto5pqpmxlcc9byev6d5/.mp4?rlkey=grgcr4l6ssrzkookp2erixq7j&dl=1")!)
                 
                 
                 let dataTask = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
